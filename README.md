@@ -144,9 +144,9 @@ The metadata records the inference-script hash yet does not record the full Git 
 
 We have not implemented calibration yet. The planned method fits a straight-line correction and clips the result to the range from 0 to 1:
 
-\[
-\hat{y} = \operatorname{clip}(a q + b, 0, 1),
-\]
+$$
+\hat{y} = \operatorname{clip}(a q + b, 0, 1)
+$$
 
 where \(q\) is the model's predicted-IoU score and \(y\) is the observed mask IoU.
 
