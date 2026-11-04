@@ -1,0 +1,4 @@
+[submodule "references/Medical-SAM-Adapter"]
+	path = references/Medical-SAM-Adapter
+	url = https://github.com/ImprintLab/Medical-SAM-Adapter.git
+	ignore = untracked
